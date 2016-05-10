@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 hello git
 I'm linlingfan
 
+=======
+hello git
+I'm linlingfan
+
+>>>>>>> 82da242c42576220923859d00d4834e230f24701
 I modify the Git£¡hi hi¡£
