@@ -1,0 +1,103 @@
+form,table,tr,td,th,tbody,thead,select,option{
+	margin:0;
+	padding:0;
+}
+
+#formTable {
+	width:820px;
+	margin-left:15px;
+}
+
+#formTable input, #formTable textarea, #formTable select {
+	border:1px solid #c3e0fb;
+}
+#formTable label input {
+	border:none;
+}
+
+#detailTable {
+	width:820px;
+	border-collapse:collapse;
+}
+
+#detailTable caption {
+	height:30px;
+	border:1px solid #98b4cf;
+	border-bottom:0;
+	background:url(../images/title.gif) 100% 0;
+	font-size:16px;
+	font-weight:bolder;
+	line-height:30px;
+	color:#004d95
+}
+
+#detailTable tr th {
+	background-color:#e2f4ff;
+	/*width:120px;*/
+	height:30px;
+	border:1px solid #98b4cf;
+	font-size:12px;
+	padding-left:5px;
+	color:#004d95;
+}
+
+#detailTable tr td {
+	height:30px;
+	border:1px solid #98b4cf;
+	font-size:12px;
+	padding-left:5px;
+}
+
+#formTable .controlButton,#detailTable  .controlButton {
+	height:23px;
+	width:51px;
+	border:0;
+	margin-top:5px;
+	margin-bottom:5px;
+
+	margin-left:10px;	
+	background:url(../images/button1.gif);
+}
+
+#formTable .inputLong {
+	height:23px;
+	width:75px;
+	border:0;
+	margin-top:5px;
+	margin-bottom:5px;
+
+	margin-left:10px;	
+	background:url(../images/button3.gif);
+}
+
+#formTable textarea {
+    margin:5px 0;
+	width:85%;
+	height:120px;
+}
+
+div.scrollDiv {
+    padding: 10px;
+	max-height: 600px;
+    overflow: auto;
+    scrollbar-face-color: #70807d;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-3dlight-color: #70807d;
+    scrollbar-shadow-color: #ffffff;
+    scrollbar-darkshadow-color: #70807d;
+    scrollbar-track-color: #ffffff;
+}
+
+.micro {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+
+div.frameNum {
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    margin-top: 7px;
+}

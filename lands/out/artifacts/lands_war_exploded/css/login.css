@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	width :1024px;
+	margin:0 auto;
+}
+form {
+	width :1024px;
+	height:768px;
+	background:url(../images/login.jpg) no-repeat center center;
+}
+#userAccount {
+	width:130px;
+	height:15px;
+	margin-left:521px;
+	margin-top:393px;
+	border:0;
+	background:transparent;
+}
+#userPass {
+	width:130px;
+	height:15px;
+	margin-left:521px;
+	margin-top:14px;
+	border:0;
+	background:transparent;
+}
+#submitLogin {
+	width:52px;
+	height:23px;
+	margin-left:631px;
+	margin-top:19px;
+	border:0;
+	background:url(../images/loginButton.gif);
+}

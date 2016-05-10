@@ -1,0 +1,49 @@
+.doubleTr {
+	background-color:#f6fafd;
+}
+	
+.mouseoverTr {
+	background-color:#f2faff;
+}
+	
+.mouseclickTr {
+	background-color:#b6e1ff;
+}
+.inputOnfocus {
+	background-color:#f0f9ff;
+}
+
+.controlButton {
+	height:23px;
+	border: 1px outset #e9ddcf;
+	margin-left:5px;
+	background:url(../images/button2.gif);
+	cursor:pointer;
+}
+
+a {
+	text-decoration:none;
+}
+
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+}
+
+div.scrollDiv {
+    padding: 10px;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+    scrollbar-face-color: #70807d;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-3dlight-color: #70807d;
+    scrollbar-shadow-color: #ffffff;
+    scrollbar-darkshadow-color: #70807d;
+    scrollbar-track-color: #ffffff;
+}

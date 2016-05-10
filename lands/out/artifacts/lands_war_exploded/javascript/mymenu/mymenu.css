@@ -1,0 +1,45 @@
+div.mymenu {
+    width: 150px;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 0 0 10px 0;
+    background: url(images/bottom.gif) no-repeat right bottom;
+    color: #fff;
+}
+div.mymenu  div {
+    background: url(images/t.gif) no-repeat;
+    overflow: hidden;
+}
+div.mymenu  div  span {
+    display: block;
+    padding: 5px 25px;
+    font-weight: bold;
+    color: #01396c;
+    background: url(images/expanded.gif) no-repeat 10px center;
+    cursor: default;
+    border-bottom: 1px solid #ddd;
+}
+div.mymenu  div.collapsed  span {
+    background-image: url(images/collapsed.gif);
+}
+div.mymenu  div.collapsed  div {
+    display: none;
+}
+div.mymenu  div a {
+    display: block;
+    padding: 5px 10px;
+    background: #F1F6FA;
+    border-bottom: 1px solid #ddd;
+    color: #1166b4;
+    text-decoration: none;
+}
+div.mymenu  div a.current {
+    background: #6EA0CB url(images/linkarrow.gif) no-repeat right center;
+    color: #fff;
+}
+div.mymenu  div a:hover {
+    background: #6EA0CB url(images/linkarrow.gif) no-repeat right center;
+    color: #fff;
+    text-decoration: none;
+}
